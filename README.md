@@ -3,6 +3,8 @@
 
 This n8n workflow enables users to upload and query PDF documents using AI. It integrates Google Drive for file access, splits content into semantic chunks, embeds them using Google Gemini, stores them in Pinecone, and enables intelligent Q&A over the document via natural language prompts.
 
+![Document Ingestion](Images/Document Ingestion.png)
+![Q&A Over PDF](Images/Q&A Over PDF.png)
 ---
 
 ## 🚀 Features
@@ -89,6 +91,7 @@ Content-Type: application/json
 Answer: The purpose of the Bitcoin whitepaper is to propose a peer-to-peer electronic cash system.
 Source: [bitcoin.pdf, lines 4–10]
 ```
+![chat Over PDF](Images/chat.png)
 
 ---
 
