@@ -2,9 +2,10 @@
 # 📄 Chat with PDF using AI — n8n Workflow
 
 This n8n workflow enables users to upload and query PDF documents using AI. It integrates Google Drive for file access, splits content into semantic chunks, embeds them using Google Gemini, stores them in Pinecone, and enables intelligent Q&A over the document via natural language prompts.
-
-![Workflow Overview]([https://example.com/image/workflow.png](https://raw.githubusercontent.com/ajaychanumolu/Chat-with-PDF-using-AI-n8n-Workflow/refs/heads/main/Images/Document%20Ingestion.png))
-![Q&A Over PDF]( Images/Q&A Over PDF.png )
+```
+![Q&A Over PDF](Images/Document_Ingestion.png)
+![Q&A Over PDF](Images/Q&A_Over_PDF.png)
+```
 ---
 
 ## 🚀 Features
